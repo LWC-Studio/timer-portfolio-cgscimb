@@ -1,0 +1,56 @@
+.container,
+table {
+    background: #efefef;
+}
+
+.slds-button {
+    --sds-c-button-brand-color-background: #9b9b9b;
+    --sds-c-button-brand-color-border: #9b9b9b;
+    --sds-c-button-brand-color-border-hover: #9b9b9b;
+--sds-c-button-brand-color-background-hover: #9b9b9b;
+}
+
+.slds-icon_container {
+    --sds-c-icon-color-background: #9b9b9b;
+}
+
+.slds-table_cell-buffer tr>td:first-child {
+    padding-left: 0;
+}
+
+.slds-table_cell-buffer tr>td:last-child {
+    padding-right: 0;
+}
+
+.slds-hint-parent td {
+    text-align: center;
+}
+
+
+/* component 2 */
+
+.container {
+    background: #efefef;
+}
+
+.timer-pill {
+    background: rgb(75, 202, 129);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* component 3 */
+
+.slds-table_cell-buffer tr td:nth-of-type(1) {
+    text-align: left;
+}
+
+.slds-table_cell-buffer tr td:nth-of-type(2),
+.slds-table_cell-buffer tr td:nth-of-type(3) {
+    text-align: right;
+}
+
